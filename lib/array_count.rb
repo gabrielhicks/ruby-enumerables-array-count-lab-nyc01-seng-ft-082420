@@ -5,15 +5,7 @@ def count_strings(array)
 end
 
 def count_empty_strings(array)
-  total = 0
-  
   array.count do |ele|
-    
-    if ele == ""
-      total += 1
-    end
-    
+    ele == ""
   end
-  
-  total
 end
